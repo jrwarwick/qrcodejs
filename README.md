@@ -47,6 +47,9 @@ and you can use some methods
         // DEPRECATED calls setCode(str)
 ```
 
+## Demonstration
+[https://github.com/locandy/qrcodejs/blob/improve-documentation/index.html](https://htmlpreview.github.io/?https://github.com/locandy/qrcodejs/blob/master/index.html)
+
 ## Browser Compatibility
 Edge, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, etc. and possibly even IE6~10.
 
