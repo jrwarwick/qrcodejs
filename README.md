@@ -1,10 +1,11 @@
 # QRCode.js
-QRCode.js is javascript library for making QRCodes as SVG, canvas/PNG ot table.
+QRCode.js is a pure client-side javascript library for rendering QRCodes as SVG, canvas/PNG, or html table.
 QRCode.js has no dependencies, not even for the demo anymore.
 
-## Basic Usages
-```
+## Basic Usage
+```html
 <div id="qrcode"></div>
+
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "http://example.com");
 </script>
@@ -12,8 +13,9 @@ new QRCode(document.getElementById("qrcode"), "http://example.com");
 
 or with some options
 
-```
+```html
 <div id="qrcode"></div>
+
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: "http://example.com",
@@ -31,7 +33,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 
 and you can use some methods
 
-```
+```javascript
     qrcode.setCode("http://example.com");
         // change the qr code using all current settings and output method
     qrcode.destruct();
@@ -46,7 +48,7 @@ and you can use some methods
 ```
 
 ## Browser Compatibility
-IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
+Edge, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, etc. and possibly even IE6~10.
 
 ## License
 MIT License
