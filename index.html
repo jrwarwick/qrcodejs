@@ -5,9 +5,12 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
 	<script type="text/javascript" src="qrcode.js"></script>
+	<style>
+		#controls { margin: 2em; }
+	</style>
 </head>
 <body>
-<div>
+<div id="controls">
 <input id="text" type="text" value="http://jindo.dev.naver.com/collie" style="width:300px" onblur="makeCode()"/>
 <input id="svg" type="checkbox" onchange="changeSGV(this)"><label for="svg">Use SVG</label>
 </div>
